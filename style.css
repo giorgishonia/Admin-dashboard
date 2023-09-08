@@ -1,0 +1,424 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+@font-face {
+    font-family: Roboti;
+    src: url('https: //fonts.googleapis.com/css2?family=Roboto&display=swap');
+}
+
+body{
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-color: rgb(228, 228, 228);
+}
+
+dashboard{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(201.18deg 78.9% 46.47%);
+    width: 18vw;
+    height: 100vh;
+}
+
+.dashboard{
+    display: flex;
+    margin-top: 20px;
+}
+
+.dash-icon{
+    filter: invert(100%);
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+#text{
+    color: white;
+    font-family: 'Roboti', sans-serif;
+    text-align: center;
+    font-size: 25px;
+    line-height: 40px;
+}
+
+.icons{
+    filter: invert(100%);
+    width: 25px;
+    cursor: pointer;
+}
+
+.home{
+    display: flex;
+    color: white;
+    font-family: 'Roboti', sans-serif;
+    line-height: 60px;
+    font-size: 20px;
+    gap: 10px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.home {
+    display: flex;
+    color: white;
+    font-family: 'Roboti', sans-serif;
+    line-height: 60px;
+    font-size: 20px;
+    gap: 10px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-left: 0px;
+}
+
+.lil-icons {
+    display: flex;
+    color: white;
+    font-family: 'Roboti', sans-serif;
+    line-height: 30px;
+    font-size: 15px;
+    gap: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+#divider{
+    margin-top: 50px;
+}
+#divider-2 {
+    margin-top: 70px;
+}
+
+.top-side{
+    background-color: whitesmoke;
+    height: 22vh;
+    width: 82vw;
+    flex-wrap: wrap;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.25);
+}
+
+main{
+    display: flex;
+}
+
+input{
+    background-color: rgb(226 232 240);
+    border-radius: 20px;
+    width: 60%;
+    margin-left: 90px;
+    margin-top: 23px;
+    height: 20px;
+    padding: 15px;
+    
+}
+
+#magnifier{
+
+    position: absolute;
+    top: 29px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+#bell {
+
+    position: absolute;
+    top: 27px;
+    margin-left: 20px;
+    cursor: pointer;
+
+}
+
+.mori{
+    position: absolute;
+    border-radius: 100%;
+    margin-left: 215px;
+    top: 17px;
+    width: 45px;
+}
+
+.username{
+    font-family: 'Roboti', sans-serif;
+    position: absolute;
+    top: 30px;
+    right: 35px;
+    font-size: 15px;
+    color: black;
+}
+
+.mori-bigger{
+    position: absolute;
+    border-radius: 100%;
+    left: 310px;
+    top: 80px;
+    width: 65px;
+}
+
+.welcome{
+position: relative;
+top: 40px;
+margin-left: 120px;
+
+font-family: 'Roboti', sans-serif;
+}
+
+.new{
+    position: relative;
+    top: 10px;
+    left: 840px;
+    background-color: hsl(201.18deg 78.9% 46.47%);
+    width: 100px;
+    height: 35px;
+    border-radius: 15px;
+    color: white;
+    font-size: 15px;
+    font-family: 'Roboti', sans-serif;
+    letter-spacing: 2px;
+}
+
+.upload {
+    position: relative;
+    top: 10px;
+    left: 870px;
+    background-color: hsl(201.18deg 78.9% 46.47%);
+    width: 100px;
+    height: 35px;
+    border-radius: 15px;
+    color: white;
+    font-size: 15px;
+    font-family: 'Roboti', sans-serif;
+    letter-spacing: 2px;
+}
+
+.share {
+    position: relative;
+    top: 10px;
+    left: 900px;
+    background-color: hsl(201.18deg 78.9% 46.47%);
+    width: 100px;
+    height: 35px;
+    border-radius: 15px;
+    color: white;
+    font-size: 15px;
+    font-family: 'Roboti', sans-serif;
+    letter-spacing: 2px;
+}
+
+.projects{
+    display: grid;
+    grid-template-columns: 400px 400px;
+    grid-template-rows: 2fr 2fr;
+    gap: 30px;
+    padding: 30px;
+    height: 100%;
+    margin-top: 45px;
+}
+
+.etch{
+    width: 400px;
+    height: 220px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.386);
+    border-left: 10px solid orange;
+}
+
+.rock {
+    width: 400px;
+    height: 220px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.386);
+    border-left: 10px solid orange;
+}
+
+.sign {
+    width: 400px;
+    height: 220px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.386);
+    border-left: 10px solid orange;
+}
+
+.landing {
+    width: 400px;
+    height: 220px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.386);
+    border-left: 10px solid orange;
+}
+
+text{
+    font-family: 'Roboti', sans-serif;
+    color: black;
+    font-weight: 500;
+    position: relative;
+    top: 30px;
+    left: 30px;
+    font-size: 22px;
+    cursor: pointer;
+    transition: 200ms;
+    text-decoration: none;
+}
+
+text:hover{
+    color: gray;
+    transition: 200ms;
+}
+
+.project-description {
+    font-family: 'Roboti', sans-serif;
+    color: gray;
+    font-weight: 500;
+    position: relative;
+    top: 50px;
+    left: 30px;
+    font-size: 16px;
+    width: 330px;
+}
+
+#project-icons{
+    position: relative;
+    margin-top: 90px;
+    margin-left: 300px;
+}
+
+.im-literally-mori-buntarou{
+    position: absolute;
+    top: 190px;
+    font-family: 'Roboti', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+.im-literally-mori-buntarou3{
+    position: absolute;
+    top: 190px;
+    font-family: 'Roboti', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    right: 140px;
+}
+
+
+.trending{
+    height: 470px;
+    background-color: white;
+    width: 270px;
+    margin-top: 45px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.386);
+}
+
+.others{
+    display: grid;
+    gap: 30px;
+    padding: 30px;
+    height: 100%;
+}
+
+.gray-area{
+    display: flex;
+}
+
+.announcements-description{
+    font-family: 'Roboti', sans-serif;
+    margin: 15px;
+    font-size: 15px;
+    width: 250px;
+}
+
+hr{
+    border: 1px solid rgb(205, 205, 205);
+    width: 220px;
+    margin: 20px;
+    position: absolute;
+}
+
+.trending-img{
+    width: 55px;
+    margin-top: 30px;
+    margin-left: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.227);
+    position: relative;
+}
+
+ul{
+    font-family: 'Roboti', sans-serif;
+}
+
+.trending-text-climber{
+    position: absolute;
+    top: 280px;
+    margin-left: 100px;
+}
+
+.trending-text-berserk{
+    position: absolute;
+    top: 390px;
+    margin-left: 100px;
+}
+
+.trending-text-vinland{
+    position: absolute;
+    top: 500px;
+    margin-left: 100px;
+}
+
+.trending-text-vagabond{
+    position: absolute;
+    top: 610px;
+    margin-left: 100px;
+}
+
+.climber-gray{
+    margin-left: 30px;
+    font-size: 13px;
+    position: absolute;
+    color: gray;
+    font-family: 'Roboti', sans-serif;
+}
+
+.berserk-gray{
+    margin-left: 30px;
+    font-size: 13px;
+    position: absolute;
+    color: gray;
+    font-family: 'Roboti', sans-serif;
+}
+
+.vinland-gray{
+    margin-left: 30px;
+    font-size: 13px;
+    position: absolute;
+    color: gray;
+    font-family: 'Roboti', sans-serif;
+}
+
+.vagabond-gray{
+    margin-left: 30px;
+    font-size: 13px;
+    position: absolute;
+    color: gray;
+    font-family: 'Roboti', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: gray;
+    
+}
